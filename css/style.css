@@ -1,4 +1,34 @@
-h1{
-    font-size: large;
-    color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 242);
+}
+.title{
+    font-size: 39px;
+    text-align: center;
+}
+.titlesmall{
+    font-size: 25px;
+    text-align: center;
+}
+.tdd{
+    border-left: 3.5px solid blue;
+    font-size: 20px;
+    padding: 10px;
+    Width: 800px;
+    height: 50px;
+}
+.tdd:hover{
+    border-left: 3.5px solid green;
+    font-size: 20px;
+    padding: 10px;
+    Width: 800px;
+    height: 50px;
+}
+table{
+    margin: 10px 150px;
+}
+span{
+    font-size: 16px;
+    color: red;
 }
